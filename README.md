@@ -4,7 +4,6 @@
 
 An intelligent drug authenticity checker that uses machine learning, regulatory databases, and blockchain technology to verify pharmaceutical products and protect public health.
 
-[Live Demo](https://your-app-url.streamlit.app) 
 
  🎯 About the Project
 
@@ -50,11 +49,6 @@ Core Capabilities
 - ✅ Interactive visualizations
 - ✅ Ethical transparency and limitations disclosure
 
- 🎬 Demo
-
- Live Application
-
-Try the live demo: **[https://your-app-url.streamlit.app](https://your-app-url.streamlit.app)**
 
  Screenshots
 
@@ -71,4 +65,20 @@ Verification Results
  Risk Assessment
  [Risk Score]
 <img width="1920" height="1080" alt="risk-assessment" src="https://github.com/user-attachments/assets/6952337e-6c12-474e-a047-3d8c4401c1b4" />
+The Risk Score is calculated by:
+
+Starting at 50 (neutral)
+Adjusting based on ML prediction (-30 to +40, weighted by confidence)
+Adjusting based on PPB registry (-25 to +30)
+Adjusting based on FDA database (-20 to +5)
+Adjusting based on blockchain (-15 to 0)
+Capping between 0-100
+Final score interpretation:
+
+0-20: ✅ Authentic (multiple confirmations)
+21-40: ✔️ Likely authentic (mostly positive signals)
+41-60: ⚠️ Uncertain (mixed signals - verify further)
+61-80: ⚠️ Suspicious (multiple red flags)
+81-100: ❌ Counterfeit (strong negative indicators)
+This approach provides a balanced, transparent, and actionable assessment of drug authenticity! 🎯
 

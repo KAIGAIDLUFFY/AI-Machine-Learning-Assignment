@@ -58,11 +58,17 @@ Try the live demo: **[https://your-app-url.streamlit.app](https://your-app-url.s
 
  Screenshots
 
- Main Interface
-![Main Interface](screenshots/maininterface.png)
+ Main Interface 
+ <img width="1920" height="1080" alt="main interface" src="https://github.com/user-attachments/assets/f2117e1a-363a-421f-8614-767ab3e51f07" />
+
+
 
 Verification Results
-![Results](screenshots/verification-results-mlanalysis.png , screenshots/verification results ppb check )
+<img width="1920" height="1080" alt="verification results ppb check" src="https://github.com/user-attachments/assets/06e7d72d-62fd-4c54-bd62-e715949e47da" />
+<img width="1920" height="1080" alt="verification-results-mlanalysis" src="https://github.com/user-attachments/assets/d5acf9c5-59dd-443a-9299-ee13fa0c140b" />
+<img width="1920" height="1080" alt="verification results fda check" src="https://github.com/user-attachments/assets/79fbdc94-b451-4696-8977-d614762a274f" />
 
-#### Risk Assessment
-![Risk Score](screenshots/risk-assessment.png)
+ Risk Assessment
+ [Risk Score]
+<img width="1920" height="1080" alt="risk-assessment" src="https://github.com/user-attachments/assets/6952337e-6c12-474e-a047-3d8c4401c1b4" />
+
